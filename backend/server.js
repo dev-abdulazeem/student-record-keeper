@@ -12,7 +12,7 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:5173', 
-    'http://127.0.0.1:5173',
+    'https://student-record-keeper-1.onrender.com',
     'https://student-record-keeper-1.vercel.app'
   ],
   credentials: true,
